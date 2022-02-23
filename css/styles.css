@@ -8,16 +8,18 @@
   box-sizing: border-box;
 }
 :root {
-  --title-font-size: 28px;
-  --description-font-size: 14px;
-  --icon-size: 24px;
-  --stats-font-size: 16px;
+  --title-font-size: 30px;
+  --description-font-size: 16px;
+  --button-font-size: 14px;
+  --icon-size: 26px;
+  --stats-font-size: 18px;
 }
 @media screen and (min-width: 768px) {
   :root {
-    --title-font-size: 32px;
-    --description-font-size: 18px;
-    --icon-size: 28px;
+    --title-font-size: 34px;
+    --description-font-size: 20px;
+    --button-font-size: 16px;
+    --icon-size: 30px;
     --stats-font-size: 20px;
   }
 }
@@ -47,7 +49,7 @@ article {
   border: 1px solid rgba(255, 255, 255, 0.1);
   width: 100vw;
   max-width: 380px;
-  height: 450px;
+  height: 480px;
 }
 
 article .description {
@@ -57,11 +59,11 @@ article .description {
   gap: 0.5em;
 }
 .description img {
-  width: 130px;
-  height: 130px;
+  width: 150px;
+  height: 150px;
   border: 10px solid rgba(255, 255, 255, 0.2);
   border-radius: 50%;
-  margin: 2em auto 0 auto;
+  margin: 1em auto 0 auto;
 }
 .description h1 {
   font-size: var(--title-font-size);
@@ -97,7 +99,7 @@ article .social-media .fa-brands:hover {
   color: rgba(255, 255, 255, 0.9);
   font-family: inherit;
   padding: 8px 40px;
-  font-size: var(--description-font-size);
+  font-size: var(--button-font-size);
   font-weight: 600;
   cursor: pointer;
   letter-spacing: 0.03em;
@@ -123,11 +125,11 @@ article .social-media .fa-brands:hover {
 
 @media screen and (min-width: 768px) {
   article {
-    height: 480px;
+    height: 525px;
   }
   .description img {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     border: 12px solid rgba(255, 255, 255, 0.2);
   }
 }
